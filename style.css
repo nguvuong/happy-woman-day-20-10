@@ -19,7 +19,13 @@ body {
   overflow: hidden;
   perspective: 1000px;
   padding: 50px 0px;
+      background: url('431081602_794203935932436_7720665986182121478_n.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
+
+
+
+
 
 .night {
   position: fixed;
@@ -29,6 +35,7 @@ body {
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
+      z-index: 1;
 }
 
 .happy-woman-day {
@@ -41,6 +48,7 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
+    z-index: 2; /* Ensure the flowers are above the background */
 }
 
 .flower {
